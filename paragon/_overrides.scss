@@ -1,5 +1,27 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+.site-header-desktop {
+    background-color: $body-bg;
+}
+
+.course-tabs-navigation .nav a:not(.active):hover {
+    background-color: $bg-lt;
+}
+
+.nav-underline-tabs .nav-link:hover {
+    color: #FFF;
+}
+
+
+.alert-info {
+    background-color: $bg-lt;
+    border-color: $lines;
+}
+
+.alert-heading {
+    color: #FFF;
+}
+
 .card, .collapsible-card, .collapsible-card-lg {
     background-color: $bg-lt;
 }
@@ -10,17 +32,26 @@
 
 .collapsible-card-lg .collapsible-trigger {
     border-color: $lines;
+    border-bottom: none;
 }
 
 .course-tabs-navigation {
     border-bottom: solid 1px $lines;
 }
 
-.alert-info {
-    background-color: $body-bg;
-    border-color: $lines;
+.treeview-handoutsnav {
+    background: $body-bg;
+}
+
+.page-content-container {
+    border: 1px solid $lines;
+}
+
+.bookmarks-empty {
+    border: 1px solid $lines;
+    background-color: $bg-lt;
 }
 
 .footer {
-    background-color: $body-bg;
+    background-color: $body-bg !important;
 }

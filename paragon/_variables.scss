@@ -9,7 +9,11 @@ $primary: $brand;
 $link-color: $brand;
 $black: #FFF; // variables like this are potentially confusing in that black is white, however this is done to override the Paragon variables.
 $dark: #FFF;
+$gray-400: #FFF;
 $gray-700: #FFF;
 
 $bg-lt: #25314B;
 $lines: #515B72;
+$light: $lines;
+$yellow: #FFC600;
+$red: #F34A19;
