@@ -4,10 +4,20 @@
     background-color: $body-bg;
 }
 
-.course-tabs-navigation .nav a:not(.active):hover {
-    background-color: transparent !important;
-    border-bottom: 2px solid $brand !important;
+.hd-2 {
+    color: $black;
+    margin-bottom: 0.75rem;
 }
+
+.course-tabs-navigation .nav a:hover {
+    background-color: transparent !important;
+    border-bottom: 4px solid $brand !important;
+}
+
+// .course-tabs-navigation .nav a:not(.active):hover {
+//     background-color: transparent !important;
+//     border-bottom: 4px solid $brand !important;
+// }
 
 .nav-underline-tabs .nav-link:hover {
     color: $black;
@@ -22,10 +32,17 @@
 .dropdown-menu {
     background-color: $bg-lt;
     border: 1px solid $lines;
+    padding: 0;
 }
 
 .dropdown-item {
     color: #FFF;
+    padding: 12px 16px;
+    border-bottom: 1px solid $lines;
+
+    &:last-child {
+        border-bottom: none;
+    }
 }
 
 .alert-info {
@@ -58,11 +75,37 @@
     border: 1px solid $lines;
 }
 
+.fa-bookmark {
+    color: $yellow;
+}
+
 .bookmarks-empty {
     border: 1px solid $lines;
     background-color: $bg-lt;
 }
 
+.sequence-navigation .btn {
+    border: solid 1px $lines;
+}
+
+.sequence {
+    border: solid 1px $lines;
+}
+
+.notification-trigger-btn {
+    border: 1px solid $lines;
+    border-radius: 4px;
+
+    .pgn__icon {
+        color: $black;
+    }
+}
+
+.xmodule_display.xmodule_VideoBlock .video {
+    background: $bg-lt;
+}
+
 .footer {
     background-color: $body-bg !important;
+    margin-top: 3rem;
 }
