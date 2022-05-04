@@ -1,2 +1,9 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+.card, .collapsible-card, .collapsible-card-lg {
+    background-color: $bg-lt;
+}
+
+.collapsible-card-lg .collapsible-trigger {
+    border-color: $lines;
+}
