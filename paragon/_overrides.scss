@@ -5,13 +5,28 @@
 }
 
 .course-tabs-navigation .nav a:not(.active):hover {
-    background-color: $bg-lt;
+    background-color: transparent !important;
+    border-bottom: 2px solid $brand !important;
 }
 
 .nav-underline-tabs .nav-link:hover {
-    color: #FFF;
+    color: $black;
 }
 
+.btn-outline-primary:hover {
+    color: $black !important;
+    background-color: $brand !important;
+    border-color: $brand !important;
+}
+
+.dropdown-menu {
+    background-color: $bg-lt;
+    border: 1px solid $lines;
+}
+
+.dropdown-item {
+    color: #FFF;
+}
 
 .alert-info {
     background-color: $bg-lt;
@@ -19,7 +34,7 @@
 }
 
 .alert-heading {
-    color: #FFF;
+    color: $black;
 }
 
 .card, .collapsible-card, .collapsible-card-lg {
@@ -37,10 +52,6 @@
 
 .course-tabs-navigation {
     border-bottom: solid 1px $lines;
-}
-
-.treeview-handoutsnav {
-    background: $body-bg;
 }
 
 .page-content-container {
