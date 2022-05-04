@@ -4,6 +4,23 @@
     background-color: $bg-lt;
 }
 
+.collapsible-card, .collapsible-card-lg {
+    border-radius: 10px;
+}
+
 .collapsible-card-lg .collapsible-trigger {
     border-color: $lines;
+}
+
+.course-tabs-navigation {
+    border-bottom: solid 1px $lines;
+}
+
+.alert-info {
+    background-color: $body-bg;
+    border-color: $lines;
+}
+
+.footer {
+    background-color: $body-bg;
 }
