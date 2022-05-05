@@ -11,12 +11,15 @@ $black: #FFF; // variables like this are potentially confusing in that black is 
 $dark: #FFF;
 $lines: #515B72;
 $light: $lines;
+$gray-nea: #D0D2D8;
 $gray-200: $lines;
 $gray-400: #FFF;
 $gray-700: #FFF;
 
 $bg-lt: #25314B;
+$bg-lighter: lighten($bg-lt, 5%);
 $yellow: #FFC600;
+$accent-b: $yellow;
 $red: #F34A19;
 
 $border-radius: 10px;

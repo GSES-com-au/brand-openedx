@@ -5,19 +5,22 @@
 }
 
 .hd-2 {
-    color: $black;
-    margin-bottom: 0.75rem;
+    color: $black !important;
+    margin-bottom: 0.75rem !important;
+}
+
+.text-gray-500 {
+    color: $gray-nea !important;
+}
+
+.text-dark-700 {
+    color: $gray-nea !important;
 }
 
 .course-tabs-navigation .nav a:hover {
     background-color: transparent !important;
     border-bottom: 4px solid $brand !important;
 }
-
-// .course-tabs-navigation .nav a:not(.active):hover {
-//     background-color: transparent !important;
-//     border-bottom: 4px solid $brand !important;
-// }
 
 .nav-underline-tabs .nav-link:hover {
     color: $black;
@@ -55,7 +58,7 @@
 }
 
 .card, .collapsible-card, .collapsible-card-lg {
-    background-color: $bg-lt;
+    background-color: $bg-lt !important;
 }
 
 .collapsible-card, .collapsible-card-lg {
@@ -76,7 +79,7 @@
 }
 
 .fa-bookmark {
-    color: $yellow;
+    color: $yellow !important;
 }
 
 .bookmarks-empty {
@@ -84,12 +87,16 @@
     background-color: $bg-lt;
 }
 
+.unit-navigation .previous-button, .unit-navigation .next-button {
+    border-radius: $border-radius !important;
+}
+
 .sequence-navigation .btn {
-    border: solid 1px $lines;
+    border: solid 1px $lines !important;
 }
 
 .sequence {
-    border: solid 1px $lines;
+    border: solid 1px $lines !important;
 }
 
 .notification-trigger-btn {
@@ -103,6 +110,32 @@
 
 .xmodule_display.xmodule_VideoBlock .video {
     background: $bg-lt;
+}
+
+.donut-ring.incomplete-stroke {
+    stroke: $body-bg;
+}
+
+.bg-warning-100 {
+    background-color: $bg-lt !important;
+}
+
+.pgn__data-table th {
+    background-color: $lines;
+}
+
+.pgn__data-table.is-striped tr:nth-child(even) {
+    background-color: $bg-lighter;
+}
+
+.dates-day {
+    .text-primary-700 {
+        color: $black;
+
+        .badge {
+            color: $body-bg;
+        }
+    }
 }
 
 .footer {
