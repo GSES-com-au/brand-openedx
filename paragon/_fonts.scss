@@ -1,1 +1,23 @@
-// Add any font imports or definitions here
+// SansSerif
+@font-face {
+    font-family: 'Inter';
+    src: url('#{$static-path}/fonts/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    src:
+      url('#{$static-path}/fonts/Inter-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    src:
+      url('#{$static-path}/fonts/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }

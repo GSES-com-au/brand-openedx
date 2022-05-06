@@ -5,7 +5,7 @@
 }
 
 .hd-2 {
-    color: $black !important;
+    color: $white !important;
     margin-bottom: 0.75rem !important;
 }
 
@@ -23,11 +23,11 @@
 }
 
 .nav-underline-tabs .nav-link:hover {
-    color: $black;
+    color: $white;
 }
 
 .btn-outline-primary:hover {
-    color: $black !important;
+    color: $white !important;
     background-color: $brand !important;
     border-color: $brand !important;
 }
@@ -54,11 +54,15 @@
 }
 
 .alert-heading {
-    color: $black;
+    color: $white;
 }
 
 .card, .collapsible-card, .collapsible-card-lg {
     background-color: $bg-lt !important;
+
+    &.bg-light-200 {
+        background-color: $bg-lt !important;
+    }
 }
 
 .collapsible-card, .collapsible-card-lg {
@@ -104,7 +108,7 @@
     border-radius: 4px;
 
     .pgn__icon {
-        color: $black;
+        color: $white;
     }
 }
 
@@ -130,7 +134,7 @@
 
 .dates-day {
     .text-primary-700 {
-        color: $black;
+        color: $white;
 
         .badge {
             color: $body-bg;
