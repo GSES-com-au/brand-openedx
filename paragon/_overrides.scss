@@ -15,6 +15,10 @@
 
 .text-dark-700 {
     color: $gray-nea !important;
+
+    &.popover-body {
+        color: $body-bg !important;
+    }
 }
 
 .course-tabs-navigation .nav a:hover {
@@ -84,6 +88,10 @@
 
 .fa-bookmark {
     color: $yellow !important;
+}
+
+.bg-warning-300 {
+    background-color: $yellow !important;
 }
 
 .bookmarks-empty {
