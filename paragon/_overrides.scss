@@ -1,7 +1,7 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 .site-header-desktop {
-    background-color: $body-bg;
+    background-color: $body-bg !important;
 }
 
 .hd-2 {
@@ -36,19 +36,33 @@
     border-color: $brand !important;
 }
 
+.menu-content {
+    background-color: $bg-lt !important;
+}
+
 .dropdown-menu {
     background-color: $bg-lt;
     border: 1px solid $lines;
+    border-bottom: 1px solid $lines;
+    border-radius: 10px;
     padding: 0;
 }
 
 .dropdown-item {
-    color: #FFF;
+    color: $white;
     padding: 12px 16px;
     border-bottom: 1px solid $lines;
 
-    &:last-child {
-        border-bottom: none;
+    &:not(:last-child) {
+        border-bottom: 1px solid $lines;
+    }
+
+    &:hover {
+        background-color: $dark;
+    }
+
+    a {
+        padding: 12px 16px;
     }
 }
 
