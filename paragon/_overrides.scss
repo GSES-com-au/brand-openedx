@@ -4,6 +4,10 @@
     background-color: $body-bg !important;
 }
 
+#root header .logo {
+    height: 36px !important;
+}
+
 .hd-2 {
     color: $white !important;
     margin-bottom: 0.75rem !important;
@@ -161,6 +165,20 @@
         .badge {
             color: $body-bg;
         }
+    }
+}
+
+.section.text-dark-700 {
+
+    &.shadow-sm {
+        background-color: #25314B;
+        box-shadow: none !important;
+    }
+}
+
+svg.grade-bar {
+    .x-small {
+        color: $gray-nea !important;
     }
 }
 
