@@ -26,7 +26,7 @@
 }
 
 .border-gray-900 {
-    border-color: $lines!important;
+    border-color: $lines !important;
 }
 
 .course-tabs-navigation .nav a:hover {
@@ -172,7 +172,7 @@
     }
 }
 
-section.text-dark-700 {
+section .text-dark-700 {
 
     &.shadow-sm {
         background-color: #25314B;
@@ -180,8 +180,8 @@ section.text-dark-700 {
     }
 }
 
-svg.grade-bar {
-    .x-small {
+.grade-bar {
+    text .x-small {
         color: $gray-nea !important;
     }
 }
