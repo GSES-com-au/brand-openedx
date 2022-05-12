@@ -25,6 +25,10 @@
     }
 }
 
+.border-gray-900 {
+    border-color: $lines!important;
+}
+
 .course-tabs-navigation .nav a:hover {
     background-color: transparent !important;
     border-bottom: 4px solid $brand !important;
@@ -168,7 +172,7 @@
     }
 }
 
-.section.text-dark-700 {
+section.text-dark-700 {
 
     &.shadow-sm {
         background-color: #25314B;
@@ -180,6 +184,11 @@ svg.grade-bar {
     .x-small {
         color: $gray-nea !important;
     }
+}
+
+p>a[href]:not(.btn) {
+    color: $primary !important;
+
 }
 
 .footer {
