@@ -172,10 +172,10 @@
     }
 }
 
-section .text-dark-700 {
+section.text-dark-700 {
 
     &.shadow-sm {
-        background-color: #25314B;
+        background-color: #25314B !important;
         box-shadow: none !important;
     }
 }
