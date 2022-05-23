@@ -133,6 +133,16 @@
     border: solid 1px $lines !important;
 }
 
+.btn-brand {
+    border-radius: 10px !important;
+
+    &:disabled {
+        background: $primary !important;
+        border: $primary !important;
+    }
+
+}
+
 .notification-trigger-btn {
     border: 1px solid $lines;
     border-radius: 4px;
@@ -189,6 +199,11 @@ section.text-dark-700 {
 p>a[href]:not(.btn) {
     color: $primary !important;
 
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem div div.equation span.MathJax_SVG {
+    border: 1px solid $input-border;
+    background: $input-bg;
 }
 
 .footer {
