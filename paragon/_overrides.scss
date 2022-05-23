@@ -172,6 +172,10 @@
     background-color: $bg-lighter;
 }
 
+.xmodule_display.xmodule_HtmlBlock th {
+    background: $bg-lt !important;
+}
+
 .dates-day {
     .text-primary-700 {
         color: $white;
