@@ -176,6 +176,24 @@
     background: $bg-lt !important;
 }
 
+[dir] .gbook .table thead tr:first-child {
+    background-color: $body-bg;
+}
+
+[dir] .gbook .table thead tr:first-child th {
+    background-color: $body-bg;
+}
+
+[dir] .gbook .table tr td:first-child, [dir] .gbook .table tr th:first-child {
+    background: $body-bg;
+}
+
+.pgn__form-group {
+    select.form-control {
+        background-color: $bg-lt;
+    }
+}
+
 .dates-day {
     .text-primary-700 {
         color: $white;
