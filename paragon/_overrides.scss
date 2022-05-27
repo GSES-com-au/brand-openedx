@@ -177,20 +177,20 @@
 }
 
 [dir] .gbook .table thead tr:first-child {
-    background-color: $body-bg;
+    background-color: $body-bg !important;
 }
 
 [dir] .gbook .table thead tr:first-child th {
-    background-color: $body-bg;
+    background-color: $body-bg !important;
 }
 
 [dir] .gbook .table tr td:first-child, [dir] .gbook .table tr th:first-child {
-    background: $body-bg;
+    background: $body-bg !important;
 }
 
 .pgn__form-group {
     select.form-control {
-        background-color: $bg-lt;
+        background-color: $bg-lt !important;
     }
 }
 
