@@ -240,3 +240,10 @@ p>a[href]:not(.btn) {
 .xmodule_display.xmodule_ProblemBlock div.problem .notification.problem-hint li strong {
     color: $white;
 }
+.wrapper--xblock .message .message__content {
+    color: $white;
+}
+.wrapper--xblock .problem__header {
+    margin-bottom: 20px;
+    color: white;
+}
