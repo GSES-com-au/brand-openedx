@@ -230,6 +230,16 @@ p>a[href]:not(.btn) {
     background: $input-bg;
 }
 
+#calendar {
+    table {
+        color: $gray-nea !important;
+    }
+
+    .fc-unthemed td.fc-today {
+        background: $bg-lt !important;
+    }
+}
+
 .footer {
     background-color: $body-bg !important;
     margin-top: 3rem;
