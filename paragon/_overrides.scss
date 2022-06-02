@@ -261,16 +261,10 @@ p>a[href]:not(.btn) {
     color: $white!important;
 }
 .alert-warning {
-    background-color: #fffcf0;
-    border-color: #fff1bf;
-    color: $black!important;
+    color: $realblack!important;
 }
 .content-wrapper .course-tabs {
-    padding: 0;
-    font-size: 0.875rem;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    white-space: nowrap;
+    overflow-x: $hidden!important;
 }
 .wmd-preview-label {
     color: $white!important;
