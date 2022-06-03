@@ -288,3 +288,39 @@ p > a[href]:not(.btn) {
 .openassessment .message p {
   color: $white !important;
 }
+
+.date {
+    color: $white !important;
+  }
+  
+  .ora-datetime {
+    color: $white !important;
+  }
+  
+  .openassessment .submission__answer__part__prompt {
+    background: $bg-lt !important;
+  }
+  
+  .openassessment .submission__answer__display__title {
+    color: $gray-nea !important;
+  }
+  
+  .wrapper--xblock .message--incomplete {
+    background: $bg-alt !important;
+  }
+  
+  .wrapper--xblock .message--incomplete .message__title {
+    color: $yellow !important;
+  }
+  
+  .wrapper--xblock .message {
+    background: $bg-alt !important;
+  }
+  
+  .openassessment .step--grade .grade__value__description {
+   color: $white !important;
+  }
+  
+  .wrapper--xblock .message .message__content {
+    color: $white !important;
+  }
