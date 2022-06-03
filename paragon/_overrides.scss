@@ -324,3 +324,9 @@ p > a[href]:not(.btn) {
   .wrapper--xblock .message .message__content {
     color: $white !important;
   }
+
+  .alert-warning {
+    background-color: $dark !important;
+    border: 2px solid $red !important;
+    color: $red !important;
+}
