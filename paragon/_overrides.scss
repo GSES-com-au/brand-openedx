@@ -288,3 +288,6 @@ p > a[href]:not(.btn) {
 .openassessment .message p {
   color: $white !important;
 }
+.openassessment .step--grade .grade__value__description { 
+  margin-bottom: 20px; color: $white !important;
+  }
