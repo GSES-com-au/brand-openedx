@@ -1,282 +1,290 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 .site-header-desktop {
-    background-color: $body-bg !important;
+  background-color: $body-bg !important;
 }
 
 #root header .logo {
-    height: 36px !important;
+  height: 36px !important;
 }
 
 .hd-2 {
-    color: $white !important;
-    margin-bottom: 0.75rem !important;
+  color: $white !important;
+  margin-bottom: 0.75rem !important;
 }
 
 .text-gray-500 {
-    color: $gray-nea !important;
+  color: $gray-nea !important;
 }
 
 .text-dark-700 {
-    color: $gray-nea !important;
+  color: $gray-nea !important;
 
-    &.popover-body {
-        color: $body-bg !important;
-    }
+  &.popover-body {
+    color: $body-bg !important;
+  }
 }
 
 .border-gray-900 {
-    border-color: $lines !important;
+  border-color: $lines !important;
 }
 
 .course-tabs-navigation .nav a:hover {
-    background-color: transparent !important;
-    border-bottom: 4px solid $brand !important;
+  background-color: transparent !important;
+  border-bottom: 4px solid $brand !important;
 }
 
 .nav-underline-tabs .nav-link:hover {
-    color: $white;
+  color: $white;
 }
 
 .btn-outline-primary:hover {
-    color: $white !important;
-    background-color: $brand !important;
-    border-color: $brand !important;
+  color: $white !important;
+  background-color: $brand !important;
+  border-color: $brand !important;
 }
 
 .menu-content {
-    background-color: $bg-lt !important;
+  background-color: $bg-lt !important;
 }
 
 .dropdown-menu {
-    background-color: $bg-lt;
-    border: 1px solid $lines;
-    border-bottom: 1px solid $lines;
-    border-radius: 10px;
-    padding: 0;
+  background-color: $bg-lt;
+  border: 1px solid $lines;
+  border-bottom: 1px solid $lines;
+  border-radius: 10px;
+  padding: 0;
 }
 
 .dropdown-item {
-    color: $white;
-    padding: 12px 16px;
+  color: $white;
+  padding: 12px 16px;
+  border-bottom: 1px solid $lines;
+
+  &:not(:last-child) {
     border-bottom: 1px solid $lines;
+  }
 
-    &:not(:last-child) {
-        border-bottom: 1px solid $lines;
-    }
+  &:hover {
+    background-color: $dark !important;
+  }
 
-    &:hover {
-        background-color: $dark !important;
-    }
-
-    a {
-        padding: 12px 16px;
-    }
+  a {
+    padding: 12px 16px;
+  }
 }
 
 .alert-info {
-    background-color: $bg-lt;
-    border-color: $lines;
+  background-color: $bg-lt;
+  border-color: $lines;
 }
 
 .alert-heading {
-    color: $white;
+  color: $white;
 }
 
 .alert-warning {
-    background-color: $body-bg !important;
-    border: 2px solid $red !important;
-    color: $red !important;
+  background-color: $body-bg !important;
+  border: 2px solid $red !important;
+  color: $red !important;
 }
 
-.card, .collapsible-card, .collapsible-card-lg {
+.card,
+.collapsible-card,
+.collapsible-card-lg {
+  background-color: $bg-lt !important;
+
+  &.bg-light-200 {
     background-color: $bg-lt !important;
-
-    &.bg-light-200 {
-        background-color: $bg-lt !important;
-    }
+  }
 }
 
-.collapsible-card, .collapsible-card-lg {
-    border-radius: 10px;
+.collapsible-card,
+.collapsible-card-lg {
+  border-radius: 10px;
 }
 
 .collapsible-card-lg .collapsible-trigger {
-    border-color: $lines;
-    border-bottom: none;
+  border-color: $lines;
+  border-bottom: none;
 }
 
 .course-tabs-navigation {
-    border-bottom: solid 1px $lines;
+  border-bottom: solid 1px $lines;
 }
 
 .page-content-container {
-    border: 1px solid $lines;
+  border: 1px solid $lines;
 }
 
 .fa-bookmark {
-    color: $yellow !important;
+  color: $yellow !important;
 }
 
 .bg-warning-300 {
-    background-color: $yellow !important;
+  background-color: $yellow !important;
 }
 
 .bookmarks-empty {
-    border: 1px solid $lines;
-    background-color: $bg-lt;
+  border: 1px solid $lines;
+  background-color: $bg-lt;
 }
 
-.unit-navigation .previous-button, .unit-navigation .next-button {
-    border-radius: $border-radius !important;
+.unit-navigation .previous-button,
+.unit-navigation .next-button {
+  border-radius: $border-radius !important;
 }
 
 .sequence-navigation .btn {
-    border: solid 1px $lines !important;
+  border: solid 1px $lines !important;
 }
 
 .sequence {
-    border: solid 1px $lines !important;
+  border: solid 1px $lines !important;
 }
 
 .btn-brand {
-    border-radius: 10px !important;
+  border-radius: 10px !important;
 
-    &:disabled {
-        background: $primary !important;
-        border: $primary !important;
-    }
-
+  &:disabled {
+    background: $primary !important;
+    border: $primary !important;
+  }
 }
 
 .notification-trigger-btn {
-    border: 1px solid $lines;
-    border-radius: 4px;
+  border: 1px solid $lines;
+  border-radius: 4px;
 
-    .pgn__icon {
-        color: $white;
-    }
+  .pgn__icon {
+    color: $white;
+  }
 }
 
 .xmodule_display.xmodule_VideoBlock .video {
-    background: $bg-lt;
+  background: $bg-lt;
 }
 
-.xmodule_display.xmodule_ProblemBlock div.problem div div.equation span.MathJax_SVG {
-    border: 1px solid #$lines !important;
-    background: $body-bg !important;
+.xmodule_display.xmodule_ProblemBlock
+  div.problem
+  div
+  div.equation
+  span.MathJax_SVG {
+  border: 1px solid #$lines !important;
+  background: $body-bg !important;
 }
 
 .donut-ring.incomplete-stroke {
-    stroke: $body-bg;
+  stroke: $body-bg;
 }
 
 .bg-warning-100 {
-    background-color: $bg-lt !important;
+  background-color: $bg-lt !important;
 }
 
 .pgn__data-table th {
-    background-color: $lines;
+  background-color: $lines;
 }
 
 .pgn__data-table.is-striped tr:nth-child(even) {
-    background-color: $bg-lighter;
+  background-color: $bg-lighter;
 }
 
 .xmodule_display.xmodule_HtmlBlock th {
-    background: $bg-lt !important;
+  background: $bg-lt !important;
 }
 
 [dir] .gbook .table thead tr:first-child {
-    background-color: $body-bg !important;
+  background-color: $body-bg !important;
 }
 
 [dir] .gbook .table thead tr:first-child th {
-    background-color: $body-bg !important;
+  background-color: $body-bg !important;
 }
 
-[dir] .gbook .table tr td:first-child, [dir] .gbook .table tr th:first-child {
-    background: $body-bg !important;
+[dir] .gbook .table tr td:first-child,
+[dir] .gbook .table tr th:first-child {
+  background: $body-bg !important;
 }
 
 .pgn__menu-select-trigger-btn {
-    background: $body-bg !important;
+  background: $body-bg !important;
 }
 
 .pgn__menu {
-    background-color: $bg-lt !important;
+  background-color: $bg-lt !important;
 }
 
 .dates-day {
-    .text-primary-700 {
-        color: $white;
+  .text-primary-700 {
+    color: $white;
 
-        .badge {
-            color: $body-bg;
-        }
+    .badge {
+      color: $body-bg;
     }
+  }
 }
 
 section.text-dark-700 {
-
-    &.shadow-sm {
-        background-color: #25314B !important;
-        box-shadow: none !important;
-    }
+  &.shadow-sm {
+    background-color: #25314b !important;
+    box-shadow: none !important;
+  }
 }
 
 .grade-bar {
-    text .x-small {
-        color: $gray-nea !important;
-    }
+  text .x-small {
+    color: $gray-nea !important;
+  }
 }
 
-p>a[href]:not(.btn) {
-    color: $primary !important;
-
+p > a[href]:not(.btn) {
+  color: $primary !important;
 }
 
-.xmodule_display.xmodule_ProblemBlock div.problem div div.equation span.MathJax_SVG {
-    border: 1px solid $input-border;
-    background: $input-bg;
+.xmodule_display.xmodule_ProblemBlock
+  div.problem
+  div
+  div.equation
+  span.MathJax_SVG {
+  border: 1px solid $input-border;
+  background: $input-bg;
 }
 
 #calendar {
-    table {
-        color: $gray-nea !important;
-    }
+  table {
+    color: $gray-nea !important;
+  }
 
-    .fc-unthemed td.fc-today {
-        background: $bg-lt !important;
-    }
+  .fc-unthemed td.fc-today {
+    background: $bg-lt !important;
+  }
 }
 
 .footer {
-    background-color: $body-bg !important;
-    margin-top: 3rem;
+  background-color: $body-bg !important;
+  margin-top: 3rem;
 }
-.xmodule_display.xmodule_ProblemBlock div.problem .notification.problem-hint li {
-    color: $white;
+.xmodule_display.xmodule_ProblemBlock
+  div.problem
+  .notification.problem-hint
+  li {
+  color: $white;
 }
-.xmodule_display.xmodule_ProblemBlock div.problem .notification.problem-hint li strong {
-    color: $white;
+.xmodule_display.xmodule_ProblemBlock
+  div.problem
+  .notification.problem-hint
+  li
+  strong {
+  color: $white;
 }
 .wrapper--xblock .message .message__content {
-    color: $white;
+  color: $white;
 }
 .wrapper--xblock .problem__header {
-    margin-bottom: 20px;
-    color: $white !important;
+  margin-bottom: 20px;
+  color: $white !important;
 }
 .openassessment .message p {
-    color: $white !important;
-}
-.alert-warning {
-    color: $realblack !important;
-}
-.content-wrapper .course-tabs {
-    overflow-x: $hidden !important;
-}
-.wmd-preview-label {
-    color: $white !important;
+  color: $white !important;
 }
