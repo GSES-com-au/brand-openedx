@@ -83,6 +83,12 @@
     color: $white;
 }
 
+.alert-warning {
+    background-color: $body-bg !important;
+    border: 2px solid $red !important;
+    color: $red !important;
+}
+
 .card, .collapsible-card, .collapsible-card-lg {
     background-color: $bg-lt !important;
 
@@ -154,6 +160,11 @@
 
 .xmodule_display.xmodule_VideoBlock .video {
     background: $bg-lt;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem div div.equation span.MathJax_SVG {
+    border: 1px solid #$lines !important;
+    background: $body-bg !important;
 }
 
 .donut-ring.incomplete-stroke {
