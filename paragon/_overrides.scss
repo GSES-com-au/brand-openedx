@@ -160,161 +160,158 @@
 }
 
 .xmodule_display.xmodule_ProblemBlock {
-  div.problem
-  div
-  div.equation
-  span.MathJax_SVG {
-  border: 1px solid $lines !important;
-  background: $body-bg !important;
-}
-
-.donut-ring.incomplete-stroke {
-  stroke: $body-bg;
-}
-
-.bg-warning-100 {
-  background-color: $bg-lt !important;
-}
-
-.pgn__data-table th {
-  background-color: $lines;
-}
-
-.pgn__data-table.is-striped tr:nth-child(even) {
-  background-color: $bg-lighter;
-}
-
-.xmodule_display.xmodule_HtmlBlock th {
-  background: $bg-lt !important;
-}
-
-[dir] .gbook .table thead tr:first-child {
-  background-color: $body-bg !important;
-}
-
-[dir] .gbook .table thead tr:first-child th {
-  background-color: $body-bg !important;
-}
-
-[dir] .gbook .table tr td:first-child,
-[dir] .gbook .table tr th:first-child {
-  background: $body-bg !important;
-}
-
-.pgn__menu-select-trigger-btn {
-  background: $body-bg !important;
-}
-
-.pgn__menu {
-  background-color: $bg-lt !important;
-}
-
-.dates-day {
-  .text-primary-700 {
-    color: $white;
-
-    .badge {
-      color: $body-bg;
-    }
-  }
-}
-
-section.text-dark-700 {
-  &.shadow-sm {
-    background-color: #25314b !important;
-    box-shadow: none !important;
-  }
-}
-
-.grade-bar {
-  text .x-small {
-    color: $gray-nea !important;
-  }
-}
-
-p > a[href]:not(.btn) {
-  color: $primary !important;
-}
-
-.xmodule_display.xmodule_ProblemBlock
-  div.problem
-  div
-  div.equation
-  span.MathJax_SVG {
-  border: 1px solid $input-border;
-  background: $input-bg;
-}
-
-#calendar {
-  table {
-    color: $gray-nea !important;
+  div.problem div div.equation span.MathJax_SVG {
+    border: 1px solid $lines !important;
+    background: $body-bg !important;
   }
 
-  .fc-unthemed td.fc-today {
+  .donut-ring.incomplete-stroke {
+    stroke: $body-bg;
+  }
+
+  .bg-warning-100 {
+    background-color: $bg-lt !important;
+  }
+
+  .pgn__data-table th {
+    background-color: $lines;
+  }
+
+  .pgn__data-table.is-striped tr:nth-child(even) {
+    background-color: $bg-lighter;
+  }
+
+  .xmodule_display.xmodule_HtmlBlock th {
     background: $bg-lt !important;
   }
-}
 
-.footer {
-  background-color: $body-bg !important;
-  margin-top: 3rem;
-}
-.xmodule_display.xmodule_ProblemBlock
-  div.problem
-  .notification.problem-hint
-  li {
-  color: $white;
-}
-.xmodule_display.xmodule_ProblemBlock
-  div.problem
-  .notification.problem-hint
-  li
-  strong {
-  color: $white;
-}
-.wrapper--xblock .message .message__content {
-  color: $white;
-}
-.wrapper--xblock .problem__header {
-  margin-bottom: 20px;
-  color: $white !important;
-}
-.openassessment .message p {
-  color: $white !important;
-}
+  [dir] .gbook .table thead tr:first-child {
+    background-color: $body-bg !important;
+  }
 
-.date {
+  [dir] .gbook .table thead tr:first-child th {
+    background-color: $body-bg !important;
+  }
+
+  [dir] .gbook .table tr td:first-child,
+  [dir] .gbook .table tr th:first-child {
+    background: $body-bg !important;
+  }
+
+  .pgn__menu-select-trigger-btn {
+    background: $body-bg !important;
+  }
+
+  .pgn__menu {
+    background-color: $bg-lt !important;
+  }
+
+  .dates-day {
+    .text-primary-700 {
+      color: $white;
+
+      .badge {
+        color: $body-bg;
+      }
+    }
+  }
+
+  section.text-dark-700 {
+    &.shadow-sm {
+      background-color: #25314b !important;
+      box-shadow: none !important;
+    }
+  }
+
+  .grade-bar {
+    text .x-small {
+      color: $gray-nea !important;
+    }
+  }
+
+  p > a[href]:not(.btn) {
+    color: $primary !important;
+  }
+
+  .xmodule_display.xmodule_ProblemBlock
+    div.problem
+    div
+    div.equation
+    span.MathJax_SVG {
+    border: 1px solid $input-border;
+    background: $input-bg;
+  }
+
+  #calendar {
+    table {
+      color: $gray-nea !important;
+    }
+
+    .fc-unthemed td.fc-today {
+      background: $bg-lt !important;
+    }
+  }
+
+  .footer {
+    background-color: $body-bg !important;
+    margin-top: 3rem;
+  }
+  .xmodule_display.xmodule_ProblemBlock
+    div.problem
+    .notification.problem-hint
+    li {
+    color: $white;
+  }
+  .xmodule_display.xmodule_ProblemBlock
+    div.problem
+    .notification.problem-hint
+    li
+    strong {
+    color: $white;
+  }
+  .wrapper--xblock .message .message__content {
+    color: $white;
+  }
+  .wrapper--xblock .problem__header {
+    margin-bottom: 20px;
     color: $white !important;
   }
-  
+  .openassessment .message p {
+    color: $white !important;
+  }
+
+  .date {
+    color: $white !important;
+  }
+
   .ora-datetime {
     color: $white !important;
   }
-  
+
   .openassessment .submission__answer__part__prompt {
     background: $bg-lt !important;
   }
-  
+
   .openassessment .submission__answer__display__title {
     color: $gray-nea !important;
   }
-  
+
   .wrapper--xblock .message--incomplete {
     background: $bg-alt !important;
   }
-  
+
   .wrapper--xblock .message--incomplete .message__title {
     color: $yellow !important;
   }
-  
+
   .wrapper--xblock .message {
     background: $bg-alt !important;
   }
-  
+
   .openassessment .step--grade .grade__value__description {
-   color: $white !important;
+    color: $white !important;
   }
-  
+
   .wrapper--xblock .message .message__content {
     color: $white !important;
   }
@@ -323,8 +320,9 @@ p > a[href]:not(.btn) {
     background-color: $dark !important;
     border: 2px solid $red !important;
     color: $red !important;
-}
+  }
 
-.modal-content {
+  .modal-content {
     background: $bg-alt !important;
   }
+}
