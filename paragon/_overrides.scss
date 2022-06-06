@@ -330,3 +330,7 @@ p > a[href]:not(.btn) {
     border: 2px solid $red !important;
     color: $red !important;
 }
+
+.modal-content {
+    background: $bg-alt !important;
+  }
