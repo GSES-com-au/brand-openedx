@@ -28,9 +28,38 @@ $yellow: #FFC600;
 $accent-b: $yellow;
 $red: #F34A19;
 $fill-warning: $red;
+$yellow:  #D6B600 !default;
 
 $font-family-sans-serif: 'Inter', 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
 
 $border-radius: 10px;
 
 $box-shadow-sm: none;
+
+$primary: #00262B !default; // elm
+$brand: #D23228 !default;
+$success: $bg-lt !default;
+$info: $blue !default;
+$danger: $red !default;
+$warning: $yellow !default;
+$light: #E1DDDB !default; // limestone
+$dark: #00262B !default; // elm
+$accent-a: #03C7E8 !default; // isotope blue
+$accent-b: #F0CC00 !default; // oxide yellow
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    "primary":         $primary,
+    "brand":           $brand,
+    "success":         $success,
+    "info":            $accent-a,
+    "warning":         $accent-b,
+    "danger":          $danger,
+    "light":           $light,
+    "dark":            $dark,
+    "accent-a":        $accent-a,
+    "accent-b":        $accent-b,
+  ),
+  $theme-colors
+);
