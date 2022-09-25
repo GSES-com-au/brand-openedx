@@ -325,28 +325,31 @@
   .modal-content {
     background: $bg-alt !important;
   }
-}
 //-------------------------------Testing Gradebook colour fix-----------------------------------------------
-.xmodule_display.xmodule_ProblemBlock [dir] .gbook .table thead tr:first-child {
-    background-color: $bg-lt !important;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(81, 91, 114);
-}
-.xmodule_display.xmodule_ProblemBlock [dir] .gbook .table thead tr:first-child th {
-    background-color: $bg-lt !important;
-    border-bottom: 1px solid #515b72;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(81, 91, 114);
-}
+  [dir] .gbook .table thead tr:first-child {
+      background-color: $bg-lt !important;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: rgb(81, 91, 114);
+  }
+  [dir] .gbook .table thead tr:first-child th {
+      background-color: $bg-lt !important;
+      border-bottom: 1px solid #515b72;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: rgb(81, 91, 114);
+  }
 
-.xmodule_display.xmodule_ProblemBlock [dir] .gbook .table tr td:first-child,.xmodule_display.xmodule_ProblemBlock [dir] .gbook .table tr th:first-child {
-    background-color: $bg-lt !important;
+  [dir] .gbook .table tr td:first-child,.xmodule_display.xmodule_ProblemBlock [dir] .gbook .table tr th:first-child {
+      background-color: $bg-lt !important;
+  }
 }
 .text-muted {
     color: $white !important;
 }
 .alert-success {
  background-color: $bg-lt !important;
+}
+.fade .alert-content .alert .alert-success .show {
+background-color: $bg-lt !important;
 }
