@@ -68,23 +68,19 @@ $element-color-levels: () !default;
 
 $element-color-levels: map-merge(
   (
-    "background": -900,
-    "disabled-border": -900,
-    "border": -800,
-    "icon": -700,
-    "active-border": -700,
-    "focus": -700,
-    "graphic": -700,
-    "default": -500,
-    "light-text": -500,
-    "hover": -300,
-    "text": -300,
-    "active": -100,
-    "dark-text": -100,
+    "background": 900,
+    "disabled-border": 900,
+    "border": 800,
+    "icon": 700,
+    "active-border": 700,
+    "focus": 700,
+    "graphic": 700,
+    "default": 500,
+    "light-text": 500,
+    "hover": 300,
+    "text": 300,
+    "active": 100,
+    "dark-text": 100,
   ),
   $element-color-levels
 );
-
-$alert-bg-level:                    10 !default;
-$alert-border-level:                9 !default;
-$alert-color-level:                 -6 !default;
