@@ -84,3 +84,7 @@ $element-color-levels: map-merge(
   ),
   $element-color-levels
 );
+
+$alert-bg-level:                    10 !default;
+$alert-border-level:                9 !default;
+$alert-color-level:                 -6 !default;
